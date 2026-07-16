@@ -10,7 +10,7 @@ cask "switchboard" do
   auto_updates true
 
   depends_on arch: :arm64
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
 
   app "Switchboard.app"
 
