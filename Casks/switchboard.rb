@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "0.1.4"
-  sha256 "259fb2de4254760d755353f56fd7068978160ef340a0b21009c83b244bca60ae"
+  version "0.1.5"
+  sha256 "8fc7323fde3ba67eb1081751947d13271e656fa5fa88fa6a039ee73e3d28fffc"
 
   url "https://github.com/Recombix/switchboard-releases/releases/download/v#{version}/Switchboard-#{version}-arm64.dmg"
   name "Switchboard"
@@ -13,6 +13,7 @@ cask "switchboard" do
   depends_on macos: :monterey
 
   app "Switchboard.app"
+  binary "#{appdir}/Switchboard.app/Contents/Resources/bin/switchboard"
 
   zap trash: "~/Library/Application Support/Switchboard"
 end
