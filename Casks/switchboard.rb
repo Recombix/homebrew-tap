@@ -1,6 +1,6 @@
 cask "switchboard" do
-  version "0.3.6"
-  sha256 "b047e6950b635542677b9f4aca9e2f5bd78aac01a783636f081b668fa09f16bc"
+  version "0.4.0"
+  sha256 "712deafa485215f82f0b34d6ba69f0ccc9dd5cae29e175b623af8465dffdc7dd"
 
   url "https://github.com/Recombix/switchboard-releases/releases/download/v#{version}/Switchboard-#{version}-arm64.dmg"
   name "Switchboard"
